@@ -751,8 +751,8 @@ footer {
     width: 100%;
     text-align: center;
     background: rgba(245, 131, 9, 0.9019607843);
-    font-family: "gajraj one", cursive;
-    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
   }
   nav {
     background-color: white;
@@ -814,6 +814,10 @@ footer {
   }
   .button:hover {
     box-shadow: inset 0px 0px 25px orangered;
+  }
+  .mainplanes {
+    width: 100%;
+    background: radial-gradient(white, rgba(245, 131, 9, 0.9019607843));
   }
   .mainplanes .planes {
     padding-top: 1%;

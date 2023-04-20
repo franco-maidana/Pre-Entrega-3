@@ -869,8 +869,8 @@ footer {
     width: 100%;
     text-align: center;
     background: #f58309e6;
-    font-family: 'gajraj one', cursive;
-    font-size: 13px;
+    font-family: $texto-lectura;
+    font-size: 10px;
   }
 
   nav {
@@ -943,6 +943,9 @@ footer {
   }
 
   .mainplanes {
+    width: 100%;
+    background: radial-gradient(white, #f58309e6);
+
     .planes {
       padding-top: 1%;
       display: flex;
